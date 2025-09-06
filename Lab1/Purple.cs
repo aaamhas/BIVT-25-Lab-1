@@ -7,10 +7,36 @@
             bool answer = false;
 
             // code here
+            if (a>0)
+            {
+                if (b>0)
+                {
+                    if (c>0)
+                    {
+                        answer = true;
+                    }
+                }
+            }
+            else if (a<0)
+            {
+                if (b<0)
+                {
+                    if (c > 0)
+                    {
+                        answer = true;
+                    }
+                }
+            }
+            else
+            {
+                if (b==0 && c == 0)
+                {
+                    answer= true;
+                }
 
-            // end
-
-            return answer;
+            }
+                // end
+                return answer;
         }
         public bool Task2(int a, int b)
         {
