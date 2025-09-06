@@ -7,7 +7,6 @@
             bool answer = false;
 
             // code here
-            answer = d > 0;
 
             // end
 
@@ -18,7 +17,7 @@
             bool answer = false;
 
             // code here
-            answer = n % 2 == 0;
+
             // end
 
             return answer;
